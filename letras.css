@@ -1,0 +1,215 @@
+:root {
+    --col-pant1: #2F2E33;
+    --col-pant2: #2D4262;
+    --col-pant3: #73605B;
+    --col-pant5: #D41D15;
+    --col-pant6: #202022;
+    --text1: #F7F7F7;
+    --text2: #CCCCCC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_header {
+    background-color: var(--col-pant2);
+    display: flex;
+    width: 100%;
+}
+
+.box_header_uno {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 2px 30px 2px 30px;
+}
+
+.comparte {
+    color: var(--text2);
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.box_header_iconos {
+    display: flex;
+    gap: 20px;
+}
+
+.link_icono {
+    display: flex;
+}
+
+.img_uno {
+    color: var(--text2);
+    font-size: 1.7rem;
+}
+
+.link_icono:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
+.box_medio {
+    background-color: var(--col-pant1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px 20px 30px;
+}
+
+.titulo {
+    color: var(--text2);
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.box_text_ver {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 30px 20px 30px;
+}
+
+.text_ver {
+    color: var(--col-pant5);
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.link_ver {
+    display: flex;
+}
+
+.img_youtube {
+    color: var(--col-pant5);
+    font-size: 2rem;
+}
+
+.img_youtube:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
+.box_rima {
+    display: flex;
+    flex-direction: column;
+}
+
+.rima {
+    color: var(--text2);
+    display: flex;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 20px;  
+    padding: 0 0 20px 0; 
+}
+
+.rima_suelta {
+    color: var(--col-pant3);
+    display: flex;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 20px;
+    padding: 0 0 20px 0;
+}
+
+.suelta {
+    justify-content: center;
+}
+
+.box_salir {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.link_salir:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
+.salir {
+    color: var(--col-pant5);
+    font-size: 2rem;
+}
+
+
+.box_comentarios {
+    /* background-color: rgb(205, 122, 90); */
+    width: 100%;
+}
+
+.box_footer {
+    background-color: var(--col-pant6);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px 20px 30px;
+}
+
+.autor {
+    color: var(--col-pant2);
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.box_footer_icono {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0 20px 0;
+}
+
+.link_icono_footer {
+    display: flex;
+}
+
+.icono_footer {
+    color: var(--col-pant2);
+    font-size: 1.7rem;
+}
+
+.icono_footer:hover {
+    color: var(--text2);
+    transform: scale(1.3);
+    transition: 0.5s ease;
+}
+
+.box_copy {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    color: var(--col-pant2);
+    font-weight: 400;
+    font-size: 0.9rem;
+}
