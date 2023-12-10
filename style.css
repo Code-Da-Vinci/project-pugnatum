@@ -1,19 +1,19 @@
 :root {
     --col-pant0: #202022;
-    --col-pant1: #2F2E33;
-    --col-pant2: #2D4262;
-    --col-pant3: #73605B;
-    --col-pant5: #D41D15;
-    --text1: #F7F7F7;
-    --text2: #CCCCCC;
+    --col-pant1: #2f2e33;
+    --col-pant2: #2d4262;
+    --col-pant3: #73605b;
+    --col-pant5: #d41d15;
+    --text1: #f7f7f7;
+    --text2: #cccccc;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -291,12 +291,13 @@ body {
     font-size: 0.9rem;
 }
 
-@media (max-width: 1000px) {
-    .box_header_dos {
-        display: flex;
+
+@media (max-width: 900px) {
+    .img_uno {
+        font-size: 28px;
     }
 
-    .box_btn_hamburg {
+    .box_header_dos {
         display: flex;
     }
 
@@ -305,5 +306,93 @@ body {
         transition: all 0.9s ease;
     }
 
+    .link_lista {
+        font-size: 0.9rem;
+    }
 
+    .box_lista_total {
+        flex-direction: column;
+        margin: 0 0 5px 0;
+        padding: 20px 30px 20px 30px;
+    }
+
+    .box_lista_link {
+        /* flex-direction: row; */
+        width: 100%;  
+    }
+
+    .box_youtube {
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 0 10px 0 0;
+    }
+
+    .title {
+        font-size: 2.8rem;
+    }    
+}
+
+
+@media (max-width: 700px) {
+    .comparte {
+        font-size: 0.8rem;
+    }
+
+    .img_uno {
+        font-size: 25px;
+    }
+
+    .box_header_dos {
+        display: flex;
+    }
+
+    .link_lista {
+        font-size: 0.8rem;
+    }
+
+    .box_section_uno {
+        padding: 20px 15px 20px 15px;
+    }
+
+    .box_title {
+        top: -120px;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }    
+
+    .box_subtit_uno {
+        padding: 20px 15px 0 15px;
+    }
+
+    .box_lista_total {
+        padding: 20px 15px 20px 15px;
+    }
+
+    .box_lista_link {
+        /* flex-direction: row; */
+        width: 100%;  
+    }
+
+    .box_youtube {
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+        gap: 10px;
+        padding: 0 10px 0 0;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .box_title {
+        top: -100px;
+    }
+
+    .title {
+        font-size: 2.2rem;
+    }
 }

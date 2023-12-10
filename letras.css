@@ -125,7 +125,7 @@ body {
     display: flex;
     font-weight: 400;
     font-size: 1rem;
-    line-height: 20px;  
+    line-height: 22px;  
     padding: 0 0 20px 0; 
 }
 
@@ -134,7 +134,7 @@ body {
     display: flex;
     font-weight: 400;
     font-size: 1rem;
-    line-height: 20px;
+    line-height: 22px;
     padding: 0 0 20px 0;
 }
 
@@ -146,6 +146,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 0 0 10px 0;
 }
 
 .link_salir:hover {
@@ -212,4 +213,30 @@ body {
     color: var(--col-pant2);
     font-weight: 400;
     font-size: 0.9rem;
+}
+
+
+@media (max-width: 750px) {
+
+.img_uno {
+    font-size: 1.6rem;
+}
+
+.box_section {
+    padding: 20px 15px 20px 15px;
+}
+
+.box_text_ver {
+    gap: 10px;
+}
+
+
+
+.box_footer {
+    padding: 20px 15px 20px 15px;
+}
+
+/* .box_footer_icono {
+    padding: 20px 0 20px 0;
+} */    
 }
