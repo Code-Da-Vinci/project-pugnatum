@@ -122,17 +122,24 @@
                 </a>
             </div>
 
-            <!-- Hecho con "utterances" un pluggin de github -->
-
-            <div class="box_comentarios">
-                <script src="https://utteranc.es/client.js" 
-                    repo="Code-Da-Vinci/project-pugnatum" 
-                    issue-term="pathname"
-                    theme="github-dark" 
-                    crossorigin="anonymous" 
-                    async>
-                    
+            <!-- Hecho con pluggin "https://developers.facebook.com/?locale=es_ES" -->
+            
+            <div id="fb-root"></div>
+            
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v18.0"
+                nonce="CL8mS7GS">
                 </script>
+            
+            <div class="box_comentarios">
+                <hr>
+                <div class="box_text_comentario">
+                    <p class="text_comentario">* Si encuentran algún error en las letras o desean hacer cualquier otro comentario,
+                        siéntanse en la libertad de dejarlo en la caja de aquí abajo, ésto con el fin de hacer mejoras en esta
+                        página.</p>
+                </div>
+                <div class="comentarios">
+                    <div class="fb-comments" data-href="https://pugnatum.netlify.app/canciones/no_llego" data-numposts="4"></div>
+                </div>
             </div>
         </section>
 
