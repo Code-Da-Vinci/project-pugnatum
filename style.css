@@ -196,7 +196,7 @@ body {
 }
 
 .img_cancion:hover {
-    transform: scale(0.95);
+    transform: scale(0.97);
     transition: 0.3s ease;
 }
 
