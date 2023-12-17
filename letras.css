@@ -6,6 +6,7 @@
     --col-pant6: #202022;
     --text1: #F7F7F7;
     --text2: #CCCCCC;
+    --comentario: #848282;
 }
 
 * {
@@ -186,7 +187,7 @@ hr {
 }
 
 .comentarios {
-    background-color: var(--text2);
+    background-color: var(--comentario);
     display: flex;
     width:550px;
 }
@@ -257,7 +258,6 @@ hr {
     }
 
     .comentarios {
-    background-color: var(--text2);
     display: flex;
     width: 100%;
     }
