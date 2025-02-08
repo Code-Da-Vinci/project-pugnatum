@@ -2,623 +2,118 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="author" content="Daniel Rojas, erojashi@isise.edu.pe">
-    <meta name="description" content="Pugnatum es un poeta y artista underground, que a través de sus canciones plasma sentimientos muy oscuros y propios de su sentir. No se sabe quién es.">
-    <meta name="keywords" content="pugnatum, PUGNATUM, undeground, UNDERGROUND, rapero, RAPERO">
+   <meta name="author" content="Daniel Rojas, erojashi@isise.edu.pe">
+   <meta name="description" content="Pugnatum es un poeta y artista underground, que a través de sus canciones plasma sentimientos muy oscuros y propios de su sentir. No se sabe quién es.">
+   <meta name="keywords" content="pugnatum, PUGNATUM, undeground, UNDERGROUND, rapero, RAPERO">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+   
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <title>Pugnatum</title>
-    <link rel="stylesheet" href="style.css">
+   <title>Pugnatum</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="box_header">
-        <div class="box_header_uno">
-            <span class="comparte">Comparte</span>
-            <div class="box_header_iconos">
-                <a href="https://api.whatsapp.com/send?text=https://pugnatum.netlify.app/" target="_blank" class="link_icono">
-                    <i class="img_uno bi-whatsapp"></i>
-                </a>
-                <a href="https://www.facebook.com/sharer.php?u=https://pugnatum.netlify.app/" target="_blank" class="link_icono">
-                    <i class="img_uno bi-facebook"></i>
-                </a>
-                <a href="https://twitter.com/intent/tweet?text=https://pugnatum.netlify.app/" target="_blank" class="link_icono">
-                    <i class="img_uno bi-twitter-x"></i>
-                </a>
-            </div>
-        </div>
+   <div class="nav__close">
+      <i class="nav__close__icon bi-list"></i>
+   </div>
 
-        <div class="box_header_dos">
-            <div class="box_btn_hamburg">
-                <i class="icono_hamburg bi-list" id="abrirCerrar"></i>
-            </div>
-            <div class="box_lista_letra" id="desplegar">
-                <a href="canciones/desequilibrio.html" class="link_lista"> &#187; Pugnatum - Desequilibrio</a>
-                <a href="canciones/mlp.html" class="link_lista"> &#187; Pugnatum - Marear la perdiz</a>
-                <a href="canciones/bajocero.html" class="link_lista"> &#187; Pugnatum - Bajocero (Prod. Misery)</a>
-                <a href="canciones/cianuro.html" class="link_lista"> &#187; Korteks y Pugnatum - Cianuro</a>
-                <a href="canciones/dispara.html" class="link_lista"> &#187; Pugnatum - Dispara</a>
-                <a href="canciones/adios.html" class="link_lista"> &#187; Pugnatum - Adiós</a>
-                <a href="canciones/ego.html" class="link_lista"> &#187; Pugnatum - Ego? Pugnare [EGO? PUGNARE]</a>
-                <a href="canciones/quid_facis.html" class="link_lista"> &#187; Pugnatum - Quid facis? [EGO? PUGNARE]</a>
-                <a href="canciones/tenia.html" class="link_lista"> &#187; Pugnatum - Tenia</a>
-                <a href="canciones/cr.html" class="link_lista"> &#187; Pugnatum - Celos retrospectivos</a>
-                <a href="canciones/anios_luz.html" class="link_lista"> &#187; Pugnatum - Años luz</a>
-                <a href="canciones/rdn.html" class="link_lista"> &#187; Pugnatum - Rey de nada</a>
-                <a href="canciones/ningun.html" class="link_lista"> &#187; Pugnatum - Ningún (Prod. Frankie Vibes)</a>
-                <a href="canciones/lo_siento.html" class="link_lista"> &#187; Pugnatum - Lo siento</a>
-                <a href="canciones/ctec.html" class="link_lista"> &#187; Pugnatum - Casi todo en contra</a>
-                <a href="canciones/bucle.html" class="link_lista"> &#187; Pugnatum - Bucle</a>
-                <a href="canciones/hace_dias.html" class="link_lista"> &#187; Pugnatum - Hace días</a>
-                <a href="canciones/no_llego.html" class="link_lista"> &#187; Pugnatum - No llego</a>
-                <a href="canciones/mdumds.html" class="link_lista"> &#187; Pugnatum - Menos de un minuto de silencio</a>
-                <a href="canciones/ysmpoemcalc.html" class="link_lista"> &#187; Pugnatum - Yo soy mi propio óbice en mi camino a
-                    la cumbre </a>
-            </div>
-        </div>
-        <div class="box_video">
-            <video src="img/portada.mp4" class="video" muted autoplay loop playsinline></video>
-        </div>
+   <nav class="nav">
+      <div class="nav__search">
+         <input class="nav__serch__input" type="text" placeholder="Buscar">
 
-    </header>
+         <i class="nav__search__trash bi-trash3"></i>
+      </div>
+      <details class="nav__sumary">
+         <summary class="nav__sumary__title">Obras 2024</summary>
 
-    <main class="box_center">
-        <section class="box_section_uno">
-            <div class="box_title">
-                <h1 class="title">PUGNATUM</h1>
-            </div>
-            <div class="box_parrafo">
-                <p class="box_parrafo_uno"> Cavando muchos kilómetros, atravesando la roca y toda mierda del que
-                    está inundado YouTube en estos tiempos, un pequeño haz de luz hace que volvamos a tener esperanza.
-                </p>
-                <p class="box_parrafo_uno"> Donde la farándula, el chisme, los memes, los bailecitos estúpidos y demás
-                    trivialidades son el abono del día a día, muy al fondo apenas se oye una voz que escupe una realidad
-                    paralela del que nadie quiere saber.
-                </p>
-                <p class="box_parrafo_uno">Pugnatum es un poeta y artista underground, que a través de sus canciones plasma sentimientos muy oscuros y propios de su sentir. No se sabe quién es, ya que nunca sale en videos, entrevistas ni nada. Todas sus canciones tienen gran profundidad y significado con los cuales logra expresarse y plasmar la vida que le ha tocado vivir.</p>
-            </div>
-        </section>
+         <div class="nav__sumary__2024">
+            <!-- JS -->
+         </div>
+      </details>
+      <details class="nav__sumary">
+         <summary class="nav__sumary__title">Obras 2023</summary>
 
-        <section class="box_section_dos">
-            <div class="box_subtit_uno">
-                <h2 class="subtitulo">LETRA CANCIONES PUGNATUM</h2>
-            </div>
+         <div class="nav__sumary__2023">
+            <!-- JS -->
+         </div>
+      </details>
+      <details class="nav__sumary" open>
+         <summary class="nav__sumary__title">Obras 2022</summary>
 
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/desequilibrio.html" class="link_cancion">
-                        <img src="img/negr.jpeg" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/desequilibrio.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/desequilibrio.html" class="link_info">Desequilibrio</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/desequilibrio.html" class="link_info">11 nov 2023 </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/wYcSAqcN8io?si=EPy-NxDM4D1jhAO1" class="link_compartir_yt"
-                        target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
+         <div class="nav__sumary__2022">
+            <!-- JS -->
+         </div>
+      </details>
+   </nav>
 
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/mlp.html" class="link_cancion">
-                        <img src="img/mlp.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/mlp.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/mlp.html" class="link_info">Marear la perdiz</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/mlp.html" class="link_info">11 nov 2023 </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/27EIyy0oM3k?si=Sy1NjgoapCuAL-yz" class="link_compartir_yt"
-                        target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
+   <main class="main">
+      <header class="header">
+         <h1 class="header__title">PUGNATUM</h1>
+         <p class="header__paragraph">"Escribo miserias a raíz de mis problemas,
+            sé que es difícil seguir cuando fuera estás en guerra,
+            lo sé porque hasta el fuego más pequeño me quema,
+            y he visto cómo se marchitaban todas mis metas."</p>
 
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/bajocero.html" class="link_cancion">
-                        <img src="img/bc.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/bajocero.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/bajocero.html" class="link_info">Bajocero (Prod. Misery)</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/bajocero.html" class="link_info">23 sept 2023 </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/QuVtFcRaZ78?si=NHZ-wGJryPZyWskM" class="link_compartir_yt" target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
+      </header>
 
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/cianuro.html" class="link_cancion">
-                        <img src="img/ciaunuro.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/cianuro.html" class="link_info">Korteks y Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/cianuro.html" class="link_info">Cianuro</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/cianuro.html" class="link_info">15 sept 2023 </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/XFIijPcwL30?si=At6hJ_xqSS9VRxAA" class="link_compartir_yt" target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
+      <section class="works">
+         <h2 class="works__title">OBRAS 2024</h2>
+         <div class="works__container works__container__2024">
+            <!-- JS -->
+         </div>
+      </section>
 
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/dispara.html" class="link_cancion">
-                        <img src="img/dispara.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/dispara.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/dispara.html" class="link_info">Dispara</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/dispara.html" class="link_info">15 sept 2023 </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/ILAWo6lOS08?si=a1i92SIMG5Oobt_3" class="link_compartir_yt" target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
+      <section class="works">
+         <h2 class="works__title">OBRAS 2023</h2>
+         <div class="works__container works__container__2023">
+            <!-- JS -->
+         </div>
+      </section>
 
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/adios.html" class="link_cancion">
-                        <img src="img/adios.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/adios.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/adios.html" class="link_info">Adiós</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/adios.html" class="link_info">25 abr 2023 </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/AVnp7wBiZ7o?si=ODMsrdNtNwwO4stU" class="link_compartir_yt" target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
+      <section class="works">
+         <h2 class="works__title">OBRAS 2022</h2>
+         <div class="works__container works__container__2022">
+            <!-- JS -->
+         </div>
+      </section>
 
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/ego.html" class="link_cancion">
-                        <img src="img/ego.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/ego.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/ego.html" class="link_info">Ego? Pugnare [EGO? PUGNARE]</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/ego.html" class="link_info">10 mar 2023 </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/a1qzxvKS1WU?si=WffJUWvPtA_HY6vK" class="link_compartir_yt" target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
+      <footer class="footer">
+         <h3 class="footer__title">Redes sociales</h3>
 
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/quid_facis.html" class="link_cancion">
-                        <img src="img/qf.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/quid_facis.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/quid_facis.html" class="link_info">Quid facis? [EGO? PUGNARE]</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/quid_facis.html" class="link_info">14 feb 2023 </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/ZQMPXaWNrjc?si=ueqKKUlHza5-6TAs" class="link_compartir_yt" target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/tenia.html" class="link_cancion">
-                        <img src="img/tenia.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/tenia.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/tenia.html" class="link_info">Tenía</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/tenia.html" class="link_info">2 feb 2023 </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/x9fF9cETFZU?si=u8_nlMDmG724T9Ev" class="link_compartir_yt" target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/cr.html" class="link_cancion">
-                        <img src="img/cr.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/cr.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/cr.html" class="link_info">Celos retrospectivos</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/cr.html" class="link_info">11 ene 2023 </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/auCJCZmymK0?si=QmRknRI2u8eQwax2" class="link_compartir_yt" target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/anios_luz.html" class="link_cancion">
-                        <img src="img/al.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/anios_luz.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/anios_luz.html" class="link_info">Años luz</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/anios_luz.html" class="link_info">4 ene 2023 </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/MoSG2QogatA?si=oBkvqO-0UX0ArXUU" class="link_compartir_yt" target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/rdn.html" class="link_cancion">
-                        <img src="img/rdn.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/rdn.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/rdn.html" class="link_info">Rey de nada</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/rdn.html" class="link_info">28 dic 2022 </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/aToD3FcqVXw?si=UHcC23bZQKN8OlAk" class="link_compartir_yt" target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/ningun.html" class="link_cancion">
-                        <img src="img/ningun.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/ningun.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/ningun.html" class="link_info">Ningún (Prod. Frankie Vibes)</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/ningun.html" class="link_info">3 nov 2022 </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/LLyIEtZ34r8?si=6pJkrI9ZVW5gDEQe" class="link_compartir_yt" target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/lo_siento.html" class="link_cancion">
-                        <img src="img//ls.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/lo_siento.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/lo_siento.html" class="link_info">Lo siento</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/lo_siento.html" class="link_info"> 3 nov 2022</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/5Q7Rs1014FM?si=zR-F8aA3cxPWop9n" class="link_compartir_yt" target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/ctec.html" class="link_cancion">
-                        <img src="img/ctec.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/ctec.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/ctec.html" class="link_info">Casi todo en contra</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/ctec.html" class="link_info"> 26 oct 2022</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/fjSadbu0TA8?si=VbVGXo1Np6KjECxR" class="link_compartir_yt" target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/bucle.html" class="link_cancion">
-                        <img src="img/bucle.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/bucle.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/bucle.html" class="link_info">Bucle</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/bucle.html" class="link_info">26 may 2022 </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/1xhuPUHXHYo?si=ZRsCp2bN59LGhJG2" class="link_compartir_yt" target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/hace_dias.html" class="link_cancion">
-                        <img src="img/hd.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/hace_dias.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/hace_dias.html" class="link_info">Hace días</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/hace_dias.html" class="link_info"> 26 may 2022</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/fVetTmCnKs8?si=jdR-WR8wICESTmkn" class="link_compartir_yt" target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/no_llego.html" class="link_cancion">
-                        <img src="img/nll.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/no_llego.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/no_llego.html" class="link_info">No llego</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/no_llego.html" class="link_info"> 19 abr 2022</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/eTeDgw4Ljt8?si=mRyP6QTXZyNSbIC7" class="link_compartir_yt" target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/mdumds.html" class="link_cancion">
-                        <img src="img/mdum.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/mdumds.html" class="link_info">Pugnatum</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/mdumds.html" class="link_info">Menos de un minuto de silencio</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/mdumds.html" class="link_info">1 mar 2022 </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/jE80hLilOu4?si=zKap_EsGdycEZ8LS" class="link_compartir_yt"
-                        target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="box_lista_total">
-                <div class="box_lista_link">
-                    <a href="canciones/ysmpoemcalc.html" class="link_cancion">
-                        <img src="img/ysmpoemcalc.webp" alt="Imagen canción pugnatum" class="img_cancion">
-                    </a>
-                    <div class="box_info">
-                        <p class="parrafo_info">
-                            <a href="canciones/ysmpoemcalc.html" class="link_info">Pugnatum </a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/ysmpoemcalc.html" class="link_info">Yo soy mi propio óbice en mi camino a
-                                la
-                                cumbre</a>
-                        </p>
-                        <p class="parrafo_info">
-                            <a href="canciones/ysmpoemcalc.html" class="link_info"> 15 feb 2022 </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="box_youtube">
-                    <span class="ver_youtube">Ver en</span>
-                    <a href="https://youtu.be/ej5N4IpK8U0?si=WOg3nSTYTRwJkG5o" class="link_compartir_yt"
-                        target="_blank">
-                        <i class="img_youtube bi-youtube"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="box_footer">
-        <p class="box_desarrollador">Desarrollado por Code-Da-Vinci</p>
-        <div class="box_footer_icono">
-            <a href="https://github.com/Code-Da-Vinci" class="link_icono_footer" target="_blank">
-                <i class="icono_footer bi-github"></i>
+         <div class="footer__sociales">
+            <a class="footer__sociales__link" href="https://www.youtube.com/@pugnatum" target="_blank">
+               <i class="footer__sociales__yt bi-youtube"></i>
             </a>
-            <a href="https://www.facebook.com/profile.php?id=61553775553820" class="link_icono_footer" target="_blank">
-                <i class="icono_footer bi-facebook" ></i>
-            </a>
-            <a href="mailto:erojashi@isise.edu.pe" class="link_icono_footer" target="_blank">
-                <i class="icono_footer bi-envelope" ></i>
-            </a>
-        </div>
-        <div class="box-copy">
-            <p class="copyright">copyright 2023 | Sin fines de lucro</p>
-        </div>
-    </footer>
 
-    <script src="main.js"></script>
+            <a class="footer__sociales__link" href="https://open.spotify.com/intl-es/artist/0NYBZ7z9UmOMMXGckRq9gG?si=IMg7yj25QwGJYciLWjj-Rw&nd=1&dlsi=d0e2988c5c104578" target="_blank">
+               <i class="footer__sociales__spotify bi-spotify"></i>
+            </a>
+
+            <a class="footer__sociales__link" href="https://www.instagram.com/pxgnxtum.ptry/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D#" target="_blank">
+               <i class="footer__sociales__instagram bi-instagram"></i>
+            </a>
+
+            <a class="footer__sociales__link" href="https://www.paypal.com/paypalme/Pugnatum?country.x=ES&locale.x=es_ES" target="_blank">
+               <i class="footer__sociales__paypal bi-paypal"></i>
+            </a>
+
+         </div>
+      </footer>
+   </main>
+
+
+   <script type="module" src="scripts/themes/themes-2024.js"></script>
+   <script type="module" src="scripts/themes/themes-2023.js"></script>
+   <script type="module" src="scripts/themes/themes-2022.js"></script>
+   <script src="scripts/search.js" defer></script>
+   <script src="scripts/openList.js"></script>
 
 </body>
 
